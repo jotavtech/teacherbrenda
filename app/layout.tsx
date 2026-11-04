@@ -5,9 +5,11 @@ import './globals.css';
 const display = Barlow_Condensed({ subsets: ['latin'], weight: ['600', '700', '800', '900'], variable: '--font-display' });
 const body = DM_Sans({ subsets: ['latin'], variable: '--font-body' });
 export const metadata: Metadata = {
+  metadataBase: new URL('https://teacherbrenda.vercel.app'),
   title: 'Brenda Luna | Seu próximo capítulo pode ser em inglês',
   description: 'Aulas particulares de inglês do básico ao avançado com Brenda Luna. Professora desde 2018 e Cambridge CELTA Certified English Teacher. Vamos conversar?',
-  openGraph: { title: 'Seu próximo capítulo pode ser em inglês.', description: 'Inglês com Brenda Luna. Do primeiro hello à sua próxima conquista.', locale: 'pt_BR', type: 'website' },
+  openGraph: { title: 'Seu próximo capítulo pode ser em inglês.', description: 'Inglês com Brenda Luna. Do primeiro hello à sua próxima conquista.', locale: 'pt_BR', type: 'website', url: 'https://teacherbrenda.vercel.app', siteName: 'Brenda Luna • English Teacher' },
+  twitter: { card: 'summary_large_image', title: 'Seu próximo capítulo pode ser em inglês.', description: 'Inglês com Brenda Luna. Do primeiro hello à sua próxima conquista.' },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="pt-BR"><body className={`${display.variable} ${body.variable}`}>{children}</body></html>;
