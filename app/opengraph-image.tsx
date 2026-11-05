@@ -37,7 +37,7 @@ export default async function OpenGraphImage() {
           </div>
         </div>
       </div>
-      <div style={{ display: 'flex', height: 45, alignItems: 'center', justifyContent: 'space-between', padding: '0 52px', background: '#181818', color: '#f6f4ee', fontSize: 13, letterSpacing: 1 }}><span>teacherbrenda.vercel.app</span><span>@brendaluns</span></div>
+      <div style={{ display: 'flex', height: 45, alignItems: 'center', justifyContent: 'space-between', padding: '0 52px', background: '#181818', color: '#f6f4ee', fontSize: 13, letterSpacing: 1 }}><span>teacherbrenda.vercel.app</span><span>@teacherbrendaluna</span></div>
     </div>,
     { ...size, fonts: [{ name: 'Barlow', data: font, weight: 800, style: 'normal' }] },
   );

@@ -25,9 +25,9 @@ O build também verifica os tipos. Na Vercel, importe `jotavtech/teacherbrenda`,
 
 Os textos e links estão em `app/page.tsx`; estilos e pontos de quebra em `app/globals.css`; título e descrição em `app/layout.tsx`.
 
-- Instagram: https://www.instagram.com/brendaluns/
+- Instagram profissional: https://www.instagram.com/teacherbrendaluna/
 - WhatsApp: https://wa.me/5583999140820
-- Informações fornecidas: 26 anos, professora desde 2018, Cambridge CELTA Certified English Teacher.
+- Informações fornecidas: professora desde 2018, Cambridge CELTA Certified English Teacher. A idade avança a cada 4 de abril; nascimento em 04/04/2000 inferido a partir dos 26 anos informados em novembro de 2026.
 - Horários, preços e disponibilidade são consultados diretamente com a professora.
 
 ## Imagens
